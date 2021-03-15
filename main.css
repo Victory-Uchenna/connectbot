@@ -1,0 +1,87 @@
+  
+/*COLORS
+Black background:
+222
+Primary Color:
+3ab5fe
+White:
+fafaff
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+h1 {
+    font-weight: 900;
+    font-size: 5rem;
+    color: #fafafa;
+    text-shadow: #222222;
+}
+
+a {
+    color:#222222;
+}
+
+a:hover{
+    color:#3ab5fe;
+}
+/* Nav */
+.navbar{
+    text-transform: uppercase;
+    color: #222222;
+
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.nav-link{
+    font-weight: 700;
+}
+
+/* Hero */
+.hero{
+    position: relative;;
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    border: 1px solid #fafafa;
+   
+}
+
+/* Call to action */
+.dark-background{
+    background-color: #222222;
+    color: #fafafa;
+}
+.dark-background span {
+    color: #3ab5fe;
+}
+
+.btn-main{
+    background-color: #3ab5fe;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-main:hover{
+    background-color: #fafafa;
+    color: #3ab5fe;
+}
+
+.align{
+    text-align: center;
+}
